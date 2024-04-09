@@ -12,6 +12,7 @@ while True:
     print('Connection from', addr)
 
     while True:
+        #Command to exec
         command = input('Enter a command: ')
         
         if command == "quit":
